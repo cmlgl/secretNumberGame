@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <script defer src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>JavaScript Game</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content">
+            <div class="content-info">
+                <div class="content-text">
+                    <h1></h1>
+                    <p></p>
+                </div>
+
+                <input type="number" min="1" max="10" class="input-wrapper">
+
+                <div class="buttons">
+                    <button onclick="checkKick()" class="content-button">Chutar</button>
+                    <button onclick="restartGame()" id="restart" class="content-button-disabled" disabled>Novo jogo</button>
+                </div>
+            </div>
+
+            <img src="./assets/ia.png" alt="Uma IA olhando para a esquerda" class="content-ia">
+        </div>
+
+    </div>
+</body>
+
+</html>
